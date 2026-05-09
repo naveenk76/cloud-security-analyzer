@@ -1,0 +1,1 @@
+A Python project that simulates a cloud security posture assessment by scanning architecture configuration files for common misconfigurations in storage, networking, and identity management.

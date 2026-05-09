@@ -1,0 +1,29 @@
+{
+  "s3_buckets": [
+    {
+      "name": "customer-data",
+      "public": true,
+      "encrypted": false,
+      "versioning": false
+    }
+  ],
+  "security_groups": [
+    {
+      "name": "web-sg",
+      "inbound": [
+        {
+          "port": 22,
+          "source": "0.0.0.0/0"
+        }
+      ]
+    }
+  ],
+  "iam_users": [
+    {
+      "name": "admin-user",
+      "policies": [
+        "AdministratorAccess"
+      ]
+    }
+  ]
+}

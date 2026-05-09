@@ -1,0 +1,27 @@
+[
+    {
+        "resource": "customer-data",
+        "severity": "High",
+        "issue": "Public S3 bucket"
+    },
+    {
+        "resource": "customer-data",
+        "severity": "High",
+        "issue": "Encryption disabled"
+    },
+    {
+        "resource": "customer-data",
+        "severity": "Medium",
+        "issue": "Versioning disabled"
+    },
+    {
+        "resource": "web-sg",
+        "severity": "High",
+        "issue": "SSH open to the internet"
+    },
+    {
+        "resource": "admin-user",
+        "severity": "Medium",
+        "issue": "AdministratorAccess policy attached"
+    }
+]
